@@ -308,7 +308,7 @@
         } elseif ($page == "struk") {
           include "view/strukTransaksi.php";
         }elseif ($page == "keluar") {
-          include "view/strukTransaksi.php";
+          include "login.php";
         } else {
           // Tampilkan alert untuk akses tidak sah
           echo '<script>alert("Akses tidak sah!");</script>';
