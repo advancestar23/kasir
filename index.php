@@ -332,8 +332,7 @@
       <!-- footer -->
       <!-- ============================================================== -->
       <footer class="footer text-center text-muted">
-        All Rights Reserved by Adminmart. Designed and Developed by
-        <a href="https://www.instagram.com/_amorfatiii/">Amorfati</a>.
+        All Rights Reserved by Kelompok 10.
       </footer>
       <!-- ============================================================== -->
       <!-- End footer -->
