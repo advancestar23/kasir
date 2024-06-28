@@ -307,6 +307,8 @@
           include "view/kasirPembayaran.php";
         } elseif ($page == "struk") {
           include "view/strukTransaksi.php";
+        }elseif ($page == "keluar") {
+          include "view/strukTransaksi.php";
         } else {
           // Tampilkan alert untuk akses tidak sah
           echo '<script>alert("Akses tidak sah!");</script>';
@@ -317,7 +319,9 @@
       }
       if (isset($_GET['action']) && $_GET['action'] == 'logout') {
         session_destroy();
-        header("Location: login.php");
+        echo '<script>
+                    window.location.href="?halaman=keluar";
+                  </script>';
         exit();
       }
       ?>
