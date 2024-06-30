@@ -227,7 +227,7 @@ if (isset($_GET['delete'])) {
                                             <td><?= $dd['kd_pretransaksi']; ?></td>
                                             <td><?= $dd['nama_produk']; ?></td>
                                             <td><?= $dd['jumlah']; ?></td>
-                                            <td><?= $dd['sub_total']; ?></td>
+                                            <td><?= "Rp. " . number_format($dd['sub_total'], 0, ',', '.') . ",-"; ?></td>
                                             <td class="text-center">
                                                 <a href="#" id="btdelete<?php echo $no; ?>" class="btn btn-danger">Batal</a>
                                             </td>
@@ -256,7 +256,7 @@ if (isset($_GET['delete'])) {
                                     <?php if ($assoc['sub'] != "") : ?>
                                         <tr>
                                             <td colspan="4">Total Harga</td>
-                                            <td><?php echo $assoc['sub'] ?></td>
+                                            <td><?php echo "Rp. " . number_format($assoc['sub'], 0, ',', '.') . ",-"; ?></td>
                                         </tr>
                                     <?php endif ?>
                                 <?php } else { ?>

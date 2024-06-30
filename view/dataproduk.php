@@ -172,7 +172,7 @@ if (isset($_POST['addnewbarang'])) {
                     <td><?= $img; ?></td>
                     <td><?= $namabarang; ?></td>
                     <td><?= $supplier; ?></td>
-                    <td><?= $harga; ?></td>
+                    <td><?= "Rp." . number_format($harga) . ",-"; ?></td>
                     <td><?= $stock; ?></td>
                     <td>
                       <button type="button" class="btn btn-warning" title="Edit" data-toggle="modal" data-target="#edit<?= $idb; ?>"><i class="fas fa-pencil-alt" style="color: #fff"></i></button>
@@ -328,23 +328,6 @@ if (isset($_POST['addnewbarang'])) {
         </tr>
       </tfoot>
       </table>
-      <ul class="pagination float-right">
-        <li class="page-item disabled">
-          <a class="page-link" href="#" tabindex="-1">Previous</a>
-        </li>
-        <li class="page-item active">
-          <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">Next</a>
-        </li>
-      </ul>
       </div>
     </div>
   </div>

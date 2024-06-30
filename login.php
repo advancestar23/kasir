@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo_baju.png" />
+    <title>Kasir App</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -17,7 +19,7 @@
             <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                 <div class="max-w-md mx-auto">
                     <div>
-                        <h1 class="text-2xl font-semibold">Login Kasir Toko Bangunan</h1>
+                        <h1 class="text-2xl font-semibold">Login Kasir Toko Baju D'ta collection</h1>
                     </div>
                     <form method="POST" action="">
                         <div class="divide-y divide-gray-200">
