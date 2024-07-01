@@ -33,6 +33,9 @@
     .left-sidebar {
       display: none !important;
     }
+    .footer {
+			display: none !important;
+		}
   }
 </style>
 <!-- Modal -->
