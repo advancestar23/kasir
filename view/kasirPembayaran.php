@@ -47,9 +47,10 @@ if (isset($_POST['selesaiGet'])) {
                         alert("Transaksi berhasil");
                       </script>';
                 unset($_SESSION['transaksi']);
-                echo '<script>
-                    window.location.href="?halaman=kasir";
-                </script>';
+                // echo '<script>
+                //     window.location.href="?halaman=kasir";
+                // </script>';
+                echo '<script> window.location.href="?halaman=struk&id=' . $transkode . '"; </script>';
             } else {
                 // $response = ['response' => 'negative', 'alert' => 'Terjadi kesalahan'];
                 echo '<script>
