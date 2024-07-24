@@ -9,7 +9,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo_baju.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo-icon.png" />
   <?php
   @$page = $_GET['halaman'];
   session_start();
@@ -62,16 +62,10 @@
           <div class="navbar-brand" style="display: flex; align-items: center;">
             <!-- Logo icon -->
             <a href="?halaman=welcome" style="display: flex; align-items: center;">
-              <!-- <b class="logo-icon">
-                Dark Logo icon
+              <b class="logo-icon">
                 <img src="assets/images/logo.png" alt="homepage" class="dark-logo" style="width: 70%" />
-              </b> -->
+              </b>
               <!--End Logo icon -->
-              <!-- Logo text -->
-              <span class="logo-text" style="margin-left: 8px;">
-                <!-- dark Logo text -->
-                <h4 style="margin: 0; color:black;">Toko Baju D'ta collection</h4>
-              </span>
             </a>
           </div>
           <!-- ============================================================== -->
